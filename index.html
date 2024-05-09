@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/c425e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- HEADER -->
+    <div class="header">
+        <div class="hero">
+            <nav>
+            <img src="images/clearleft-logo-0002.png">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul> 
+            </nav>
+            <div class="hero-text">
+                <h1>Hello, I'm <span>Nwamaka</span>. <br>I am a Web Developer </h1>
+            </div> 
+        </div>
+    </div>
+<!-- About -->
+    <div class="about" id="about">
+        <h1 class="sub-title">About Me</h1>
+        <p>I am a chemical engineering graduate from the Federal University of Petroleum Resources, Effurun, Delta State. Although I have a degree in chemical engineering, my passion for user interface (UI) and user experience (UX) design inspired me to work in the field of bridging the technical and user communities. I can transform complicated engineering concepts into user interfaces that are both aesthetically pleasing and intuitive because of my unique skill set. <br></p>
+
+         <p> In addition to my technical knowledge, I have useful front-end development abilities, which enable me to give designs life by creating workable prototypes and user interfaces. I love to address problems creatively and with ingenuity. I'm always looking for methods to apply design thinking and user-centred methodologies to enhance the user journey. My objective is to design items that are outstanding in terms of functionality and aesthetics, guaranteeing a seamless and delightful user experience. <br></p>
+
+         <p> I am skilled in responsive design, and core web languages (HTML, CSS, JS). I also utilize Git for efficient code management. I leverage strong communication and teamwork skills to ensure project success. My problem-solving abilities and commitment to lifelong learning allow me to tackle complex challenges and deliver high-quality results.
+        </p>
+
+    </div>
+
+    <!-- TAB-TITLES -->
+    <div class="section" id="skills">
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            </ul> 
+        </div>
+        <div class="tab-contents active-tab" id="skills">
+            <ul>
+                <li><span>UI/UX</span><br> Designing Web interfaces</li>
+                <li><span>Web Development</span><br> Responsive Design <br>HTML, CSS, and JAVASCRIPT</li>
+                <li><span>Version Control</span><br> Git</li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="education">
+            <ul>
+                <li><span>2023</span><br> UI/UX Design Training at Dynamic Youth Empowerment Network (DYEN)</li>
+                <li><span>2023</span><br>Google UX at Coursera</li>
+                <li><span>2024</span><br>Web Development at Genesys Upskill '24</li>
+            </ul>
+        </div>
+        <div class="tab-contents" id="experience">
+            <!-- <ul>
+                <li><span>2023</span><br> UI/UX Design Training at Dynamic Youth Empowerment Network (DYEN)</li>
+                <li><span>2023</span><br>Google UX at Coursera</li>
+                <li><span>2024</span><br>Web Development at Genesys Upskill '24</li>
+            </ul> -->
+        </div>
+    </div>
+    <!-- SERVICES -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias repudiandae corrupti exercitationem deserunt! Itaque, perferendis id, voluptate non nemo beatae minima sequi maxime harum amet voluptas praesentium fugiat? Repudiandae, iusto?</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias repudiandae corrupti exercitationem deserunt! Itaque, perferendis id, voluptate non nemo beatae minima sequi maxime harum amet voluptas praesentium fugiat? Repudiandae, iusto?</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <h2>App Design</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias repudiandae corrupti exercitationem deserunt! Itaque, perferendis id, voluptate non nemo beatae minima sequi maxime harum amet voluptas praesentium fugiat? Repudiandae, iusto?</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CONTACT -->
+    <div class="contain" id="contact">
+    <div class="contact">
+            <h2> Contact Me </h2>
+     
+        <form action="http://httpbin.org/get" method="get">
+        
+           <fieldset>
+        
+               <legend class="offscreen">Send Me A Message</legend>
+               <div class="legend">
+               <p>
+                   <label for="name">Name:</label>
+                   <input type="text" name="name" id="name" placeholder="your name" required>
+               </p>
+               <p>
+                   <label for="email">Email:</label>
+                   <input type="email" name="email" id="email" placeholder="your email" required>
+               </p>
+            
+              <!--  <div class="textarea"> -->
+               <p>
+                   <label for="Message">Your message:</label>
+                   <br>
+                   <textarea name="message" id="message" cols="30" rows="10" placeholder=" Type your message here"></textarea>
+               </p>
+            </div>
+           </fieldset>
+           
+           <button type="submit"> Send </button>
+           <button type="reset">Reset</button>
+        </form>
+        </div>
+    </div>
+    <p class="center">
+        <a href="/">Back to Top</a>
+    </p>
+
+<hr>
+    <footer class="footer">
+        <nav class="footer-nav">
+            <ul>
+            <li>
+                <a href=""><img src="images/facebook.png" alt="facebook"></a>
+            </li>
+            <li>
+                <a href=""><img src="images/linkedin.png" alt="linkedin"></a>
+            </li>
+            <li>
+                <a href=""><img src="images/instagram logo.jpg" alt="instagram"></a>
+            </li>
+            </ul>
+        </nav>
+        <p>
+            <span class="nowrap">Copyright &copy;.</span> 
+            <span class="nowrap">All rights reserved</span> 
+   
+        </p>
+    </footer>
+<script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+</script>
+
+</body>
+</html>
